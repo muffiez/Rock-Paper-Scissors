@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-    <!-- <div class='buttons'> -->
+    <h1>Rock Paper Scissors: First to 5 wins!</h1>
+    
+    <h2>Please Choose Your Weapon:</h2>
         <button id="rock">Rock</button>
         <button id="paper">Paper</button>
         <button id="scissors">Scissors</button>
-    <!-- </div> -->
+    <h3>Results</h3>
+        <div id='results'>
+            <div id='message'></div>
+            <div id="round"></div>
+            <div id="player"> </div>
+            <div id="computer"></div>
+            <div id="end"></div>
+        </div>
+    <button id='replay' hidden="hidden" onclick="onReplay(event)">Play Again?</button>
+    
     <script src="javascript.js"></script>
 </body>
 </html>

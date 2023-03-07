@@ -1,3 +1,29 @@
 body {
     background-color: aqua;
+    text-align: center;
 }
+
+  .choices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+  }
+
+  #rock {
+    background-color: #808080; 
+    color: white;
+  }
+  
+  #paper {
+    background-color: white;
+    color: black; 
+  }
+  
+  #scissors {
+    background-color: #9C27B0; 
+  }
+
+  #results {
+    text-align: center;
+  }
